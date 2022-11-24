@@ -1,0 +1,18 @@
+
+RewriteEngine On 
+RewriteRule ^login/?$ view/login.php
+RewriteRule ^dashboard/?$ view/dashboard.php
+RewriteRule ^add-blog/?$ view/add-blog.php
+RewriteRule ^edit-blog/([0-9-]*)/?$ view/edit-blog.php?blog=$1
+RewriteRule ^media/?$ view/media.php
+RewriteRule ^category/?$ view/category.php
+RewriteRule ^author/?$ view/author.php
+RewriteRule ^social_link/?$ view/social_link.php
+RewriteRule ^blog_comments/?$ view/blog_comments.php
+
+RewriteRule ^logout/?$ view/logout.php
+RewriteRule ^lsw/([0-9-]*)/?$ lsw.php?pid=$1
+RewriteRule ^lsw/([a-z0-9-]*)/?$ lsw.php?cat=$1
+
+ 
+ 
